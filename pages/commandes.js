@@ -49,6 +49,7 @@ export default function Commandes() {
                 </td>
                 <td>
                   {commande.nom}
+                  <br />
                   {commande.courriel}
                   <br />
                   {commande.adresse}
