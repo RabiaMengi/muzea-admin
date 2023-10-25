@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  max-height: 100%;
+}
+
+/* .img-small {
+  @apply w-24 h-auto; 
+} */
+
+
+input,
+textarea,
+select {
+  @apply border-2 border-gray-300 rounded-md px-3 py-2 w-full mb-2 shadow-sm;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: solid rgb(147, 149, 8);
+}
+
+label {
+  @apply text-cyan-700 font-medium text-sm ;
+}
+
+h1 {
+  @apply text-cyan-900 mb-4 text-xl font-semibold;
+}
+
+h2 {
+  @apply text-cyan-800 mt-6 mb-2 text-lg
+}
+
+.btn-primary {
+  @apply bg-cyan-800 text-white px-4 py-1 shadow-md rounded-md;
+}
+.btn-primary:hover {
+  background-color: rgb(20, 137, 176);
+  color: white;
+  border: none;
+}
+
+
+table.basic {
+  @apply w-full bg-white rounded-sm shadow-lg ;
+}
+
+table.basic thead tr td,
+table.basic thead tr th {
+  @apply text-xs text-cyan-800 uppercase border-b border-gray-200 px-4 py-2  sm:text-base;
+}
+table.basic tr td {
+  @apply px-4 py-1 text-sm sm:text-base;
+}
+table.basic a,
+table.basic button {
+  @apply px-0 border rounded-md inline-flex mx-1 items-center gap-1 text-sm py-1 shadow-md sm:text-base sm:px-10;
+}
+
+table.commande {
+  @apply w-full bg-white rounded-sm shadow-lg -ml-3 sm:ml-0;
+}
+
+table.commande thead tr td,
+table.commande thead tr th {
+  @apply text-xs text-cyan-800 uppercase border border-gray-200 px-1 py-2  sm:text-sm sm:px-4;
+}
+table.commande tr td {
+  @apply px-4 py-1 text-xs border sm:text-base ;
+}
+
+.btn-edit:hover {
+  background-color: rgb(37, 109, 37);
+  color: white;
+  border: none;
+}
+.btn-delete:hover {
+  background-color: rgb(125, 8, 8);
+  color: white;
+  border: none;
+}
+
+.btn-default,
+.btn-red {
+  @apply px-4 py-1 rounded-md ;
+}
+
+.btn-red {
+  @apply bg-red-800 text-white;
+}
+
+.btn-default {
+  @apply bg-gray-400 text-white;
+}
+
+.smallText {
+  @apply text-xs sm:text-base
+}
