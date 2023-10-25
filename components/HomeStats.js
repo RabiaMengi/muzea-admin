@@ -84,7 +84,7 @@ export default function HomeStats() {
       <h2>Revenue</h2>
       <div className="carre-grid">
         <div className="carre">
-          <h3 className="carre-titre ">Ajourd'hui</h3>
+          <h3 className="carre-titre ">Aujourd'hui</h3>
           <div className="carre-nb">{totalCommandes(commandesAuj)} $</div>
         </div>
         <div className="carre">
