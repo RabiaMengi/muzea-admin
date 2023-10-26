@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout";
 import Spinner from "@/components/Spinner";
-import { NotFound } from "@aws-sdk/client-s3";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { withSwal } from "react-sweetalert2";

@@ -1,7 +1,6 @@
 import { connect } from "@/lib/databaseManager";
 import { Categorie } from "@/models/Categorie";
-import { getServerSession } from "next-auth";
-import { authOptions, isAdminRequest } from "./auth/[...nextauth]";
+import { isAdminRequest } from "./auth/[...nextauth]";
 
 export default async function handle(req, res) {
   const { method } = req;
