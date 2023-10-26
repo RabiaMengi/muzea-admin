@@ -54,8 +54,8 @@ export default function Commandes() {
                   <br />
                   {commande.adresse}
                   <br />
-                  {commande.ville}
-                  {commande.codePostal}
+                  {commande.ville} {commande.codePostal}
+                  <br />
                   {commande.pays}
                 </td>
                 <td>
